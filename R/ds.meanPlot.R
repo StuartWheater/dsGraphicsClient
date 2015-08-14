@@ -103,5 +103,5 @@ ds.meanPlot <- function( x=NULL , y=NULL , type='combine', grid.dim=10 , recursi
 #data <- read.csv("O:/Documents/Data/New_HOP_Data/HOP_simulated_data.csv", header=TRUE )
 #output <- ds.meanPlot( x=data$LAB_HDL , y=data$LAB_TSC , grid.dim=10 , recursiveMode=TRUE , regression=TRUE )
 
-data <- read.csv("O:/Documents/Data/ALSPAC/ALSPAC.csv", header=TRUE )
-output <- ds.meanPlot( x=data$BMI.7 , y=data$BMI.11 , grid.dim=10 , recursiveMode=TRUE, regression=TRUE, regression.span=0.8  )
+#data <- read.csv("O:/Documents/Data/ALSPAC/ALSPAC.csv", header=TRUE )
+#output <- ds.meanPlot( x=data$BMI.7 , y=data$BMI.11 , grid.dim=10 , recursiveMode=TRUE, regression=TRUE, regression.span=0.8  )
