@@ -5,7 +5,7 @@
 #' histogram objects to plot. The objects to plot do not contain bins with
 #' counts smaller than the allowed threshold. The function allows for the user to plot 
 #' disctinct histograms (one for each study) or a combine histogram that merges the single plots.
-#' @param x a charcater, the name of the vector of values for which the histogram is desired.
+#' @param x a character, the name of the vector of values for which the histogram is desired.
 #' @param type a character which represent the type of graph to display.
 #' If \code{type} is set to 'combine', a histogram that merges the single
 #' plot is displayed. Each histogram is plotted separately if If \code{type}
